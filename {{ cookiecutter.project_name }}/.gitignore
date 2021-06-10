@@ -80,7 +80,10 @@ target/
 .ipynb_checkpoints/
 
 # exclude data, experiments, logs from source control by default
-/data/*
+/data/raw/*
+/data/external/*
+/data/interim/*
+/data/processed/*
 !/data/tests/
 /experiments/*
 !/experiments/.gitkeep
